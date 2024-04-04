@@ -1,0 +1,127 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+body {
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+    margin: 50px;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+    width: 500px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 500px;
+
+}
+
+.button-main {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    margin-top: 47px;
+
+}
+
+@media screen and (max-width:2054px) {
+
+    body{
+        padding: 30px;
+    }
+
+    header {
+        margin: 10px 0px 5px 5px;
+    }
+.link-header{
+  margin-right: 15px;
+
+}
+
+.button-sign-up{
+    width: 60px;
+    font-size:10px ;
+    height: 30px;
+}
+    div {
+        display:flex;
+        flex-direction: column;
+    }
+
+    img {
+        margin: 0;
+        width: 380px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        width: 320px;
+    }
+
+    main {
+        margin: 0;
+    }
+}
+
